@@ -2,8 +2,7 @@ class Solution:
     # @param matrix, a list of lists of integers
     # @return a list of lists of integers
     def rotate(self, matrix):
-           if not in matrix:
-                  return None
+
            result = []
            for i in range(len(matrix)):
                   step = []
